@@ -17,5 +17,5 @@ Sprite atlases stored in .xcassets are generated when compiling the app and stor
 3. Load the sprite frames and the textures by calling: `[[CCSpriteFrameCache sharedSpriteFrameCache] loadSpriteFramesForSpriteAtlasNamed:@"name_of_sprite_atlas"]`
 
 4. Add sprites by referencing the sprite frames as they appear in the .xcassets collection.
-i.e: `CCSprite *polygon = [CCSprite spriteWithSpriteFrame:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"polygon"]]`
+i.e: `CCSprite *polygon = [CCSprite spriteWithSpriteFrame:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:@"sprite_name"]]`
 
